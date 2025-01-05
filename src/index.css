@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Custom color for turquoise */
+.text-turquoise-400 {
+  color: #40E0D0;
+}
+
+.bg-turquoise-400 {
+  background-color: #40E0D0;
+}
+
+.from-turquoise-600 {
+  --tw-gradient-from: #2C9E94;
+}
+
+.to-turquoise-400 {
+  --tw-gradient-to: #40E0D0;
+}
+
+.hover\:from-turquoise-500:hover {
+  --tw-gradient-from: #34B5AA;
+}
+
+.hover\:to-turquoise-300:hover {
+  --tw-gradient-to: #5CE6D7;
+}
+
+.border-turquoise-500 {
+  border-color: #34B5AA;
+}
